@@ -19,3 +19,8 @@ nav {
   justify-items: center;
   list-style: none;
 }
+
+.content {
+  margin: 20px;
+  text-align: center;
+}

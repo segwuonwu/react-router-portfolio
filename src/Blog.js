@@ -14,7 +14,7 @@ function Blog(props) {
          )
     })
     return (
-        <div>
+        <div className="content">
             <h1>This is my Blog</h1>
             {post}
         </div>

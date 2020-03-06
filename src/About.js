@@ -2,7 +2,7 @@ import React from 'react';
 
 function About(props) {
     return (
-        <div>
+        <div className="content">
             <h1>This page is about me</h1>
         </div>
     );
