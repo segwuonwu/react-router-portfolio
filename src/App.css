@@ -24,3 +24,29 @@ nav {
   margin: 20px;
   text-align: center;
 }
+
+img{
+  width: 30%;
+  height: 40%;
+  padding: 20px;
+}
+
+footer {
+  margin-left: auto;
+  display: block;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(73, 79, 82);
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}

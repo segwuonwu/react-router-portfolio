@@ -1,9 +1,6 @@
 import React from 'react';
-import gameover from '../public/img/gameover.png';
-
-let gameOver = {
-    gameOver: gameover
-}
+import intropage from './img/project2.png';
+import gameover from './img/gameover.png';
 
 function Projects(props) {
     return (
@@ -13,12 +10,12 @@ function Projects(props) {
             </div>
             <div>
                 <h3>These are some of the projects I've worked on</h3>
-                <div>
-                    <img src="" alt="project1" />
+                <div className="img1">
+                    <img src={intropage} alt="project1" />
                     
                 </div>
-                <div>
-                    <img src={gameOver.gameOver} alt="gameover" />
+                <div className='img2'>
+                    <img src={gameover} alt="gameover" />
                 </div>
             </div>
         </div>

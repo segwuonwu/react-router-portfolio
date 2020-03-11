@@ -5,7 +5,7 @@ import Home from './Home';
 import Blog from './Blog';
 import About from './About';
 import Projects from './Projects'
-import Nav from './Nav'
+import Footer from './Footer'
 
 const posts = [
     {
@@ -37,7 +37,11 @@ function App(props) {
                     <Route path="/about" component={About} />
                     <Route path="/projects" component={Projects}/>
             </div>
+            <div>
+                <Footer />
+            </div>
         </Router>
+       
     );
 }
 
