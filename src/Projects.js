@@ -14,7 +14,7 @@ function Projects(props) {
                     <img src={intropage} alt="project1" />
                     
                 </div>
-                <div className='img2'>
+                <div className='img1'>
                     <img src={gameover} alt="gameover" />
                 </div>
             </div>

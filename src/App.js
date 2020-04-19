@@ -34,7 +34,7 @@ function App(props) {
                 </nav>
                     <Route exact path="/" component={Home}/>
                     <Route path="/blog" render={() => <Blog posts={post}/>}/>
-                    <Route path="/about" component={About} />
+                    <Route exact path="/" component={Home}/>
                     <Route path="/projects" component={Projects}/>
             </div>
             <div>

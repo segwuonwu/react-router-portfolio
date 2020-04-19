@@ -31,7 +31,15 @@ img{
   padding: 20px;
 }
 
+.img1 {
+  margin-bottom: 10px;
+}
+
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
   margin-left: auto;
   display: block;
   justify-content: center;
